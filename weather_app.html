@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="weather_app.css">
+    <script type="text/javaScript" src="weather_app.js"></script>
+    <title>Meteo</title>
+</head>
+<body>
+    <div class="meteo">
+        <div class="div1">
+            <h1 id="city">Tunis</h1>
+            <div class="div1_2">
+                <input type="search" id="recherche">
+                <button>Search</button>
+            </div>
+        </div>
+        <div id="date">
+            <!--date-->
+        </div>
+        <div class="div2">
+                <div class="g1">
+                    <p style="font-size: 110px;margin-right: 10px;" id="temp"></p>
+                </div>
+                <div class="d">
+                        <div style="display: flex;gap: 5px;">
+                            <i id="cel">°C </i>
+                            <i>|</i>
+                            <i id="kal">K</i>
+                        </div>
+                        <i id="description"><!--description--></i>
+                </div>  
+                <div class="g">
+                    <img >
+                </div>
+                <div class="d2">
+                    <div style="display: flex;gap: 5px;">
+                        <img src="feels-like.svg" alt="feels-like">
+                        <p id="fk"></p>
+                    </div>
+                    <div style="display: flex;gap: 5px;">
+                        <img src="humidity.svg" alt="humidity">
+                        <p id="humidity"></p>
+                    </div>
+                    <div style="display: flex;gap: 5px;">
+                        <img src="wind.svg" alt="wind">
+                        <p id="wind"></p>
+                    </div>
+                </div>
+        </div>
+        <div class="div3">
+            <div class="j">
+                <p id="deg1"></p>
+                <img id="img1">
+                <p id="d1"></p>
+            </div>
+            <div class="j">
+                <p id="deg2"></p>
+                <img id="img2">
+                <p id="d2"></p>
+            </div>
+            <div class="j">
+                <p id="deg3"></p>
+                <img id="img3">
+                <p id="d3"></p>
+            </div>
+            <div class="j">
+                <p id="deg4"></p>
+                <img id="img4">
+                <p id="d4"></p>
+            </div>
+            <div class="j">
+                <p id="deg5"></p>
+                <img id="img5">
+                <p id="d5"></p>
+            </div>
+            <div class="j">
+                <p id="deg6"></p>
+                <img id="img6">
+                <p id="d6"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

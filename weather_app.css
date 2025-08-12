@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-image:url(wp7474882.webp);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.meteo{
+    margin: 5%;
+    padding: 3% 7%;
+    width: 80%;
+    background-color: rgba(18, 24, 47, 0.6);
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.div1{
+    margin:2%;
+    display: flex;
+    align-items: center;
+}
+.div1 h1{
+    font-family:"Libertinus Serif", serif;
+    flex: 2;
+}
+.div1_2{
+    flex:1.7;
+    display: flex;
+    gap: 0px;
+    height: 60%;
+}
+.div1_2 input{
+    flex: 4;
+    border-radius: 10px;
+    width: 70%;
+    padding: 3%;
+    margin-left:10%;
+}
+.div1_2 input:focus{
+    outline: none;
+}
+.div1_2 button{
+    flex: 0.5;
+    border-radius: 10px;
+    margin-left: -15px;
+    background-color: rgb(18,24,47);
+    color: whitesmoke;
+    padding:3%;
+    border: none;
+    width: 70%;
+    cursor: pointer;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.g{
+    flex:1;
+}
+.d{
+    flex: 3.5;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.d i{
+    cursor: pointer;
+}
+.d2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.g img{
+    width:100%;
+}
+.div3{
+background-color: rgba(195, 190, 190, 0.9);
+display: flex;
+width: 100%;
+justify-content: space-between;
+border-radius: 10px;
+}
+.j{
+    width:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    flex-wrap: wrap;
+}
+.j img{
+    width: 50%;
+}
+.j p{
+    color: rgb(42, 58, 111);
+    text-align: center;
+}
