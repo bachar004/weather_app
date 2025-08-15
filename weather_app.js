@@ -19,7 +19,7 @@ function fetch_weather(lat,lon){
             var date_today=new Date((days.list[0].dt)*1000).toLocaleDateString('en',{weekday:"long",day:"numeric",month:"long",year:"numeric"});
             document.querySelector("#date").textContent=date_today;
             for(var i=1;i<7;i++){
-                var datid=new Date((days.list[i].dt)*1000).toLocaleDateString("en",{day:"numeric",month:"long"});//car timestamp en seconde et date timestamp doit etre en milliseconde;
+                var datid=new Date((days.list[i].dt)*1000).toLocaleDateString("en",{day:"2-digit",month:"2-digit"});//car timestamp en seconde et date timestamp doit etre en milliseconde;
                 var id_deg="deg"+i;
                 var id_date="d"+i;
                 var id_img="img"+i;
