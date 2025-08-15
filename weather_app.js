@@ -24,7 +24,7 @@ function fetch_weather(lat,lon){
                 var id_date="d"+i;
                 var id_img="img"+i;
                 document.getElementById(id_date).textContent=datid;
-                document.getElementById(id_deg).textContent=days.list[i].temp.day+"°";
+                document.getElementById(id_deg).textContent=Math.round(parseFloat(days.list[i].temp.day))+"°";
                 document.getElementById(id_img).src=`https://openweathermap.org/img/wn/${days.list[i].weather[0].icon}@2x.png`
              }
         }).catch(err=>console.error("Erreur",err.message));
